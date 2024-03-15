@@ -1,0 +1,112 @@
+/*Over-rides Bootstrap classes for custom nav bar*/
+.navbar {
+    background-color: #384762;
+    z-index: 100;
+    border-bottom: 2px solid #00000088;
+    font-family: Bungee, sans-serif;
+    color: #FFF !important;
+    text-align: center;
+    font-family: Bungee;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.nav-link {
+    color: #FFF !important;
+}
+.nav-text {
+    margin: 0 30px;
+}
+.navbar-brand {
+    font-family: Bungee, sans-serif;
+    color: #FFF !important;
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    font-size: 32px !important;
+    margin-left: 60px;
+}
+.navbar-toggler {
+    background-color: #eeeeee !important;
+}
+.offcanvas-body {
+    background-color: #384762 !important;
+}
+.offcanvas-header {
+    background-color: #384762 !important;
+    color: #eeeeee
+}
+.btn-close {
+    background-color: white !important;
+}
+
+.nav-gmail {
+    margin: 0 14px;
+}
+.nav-linkedin {
+    margin-left: 30px;
+}
+.primary-container {
+    width: 100%;
+    margin: auto;
+    min-height: 95vh;
+}
+.white-bg {
+    background-color: white;
+    color:black
+}
+.black-bg {
+    background-color: black;
+    color: white;
+}
+.grey-bg {
+    background-color: rgb(101, 104, 107);
+    color: white;
+}
+.content-container {
+    margin: auto;
+    padding: 3em 2em;
+    width: 80%;
+    display: flex;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.flex-column {
+    flex: 1;
+    padding: 1em;
+    margin: 5px;
+    min-width: 10em;
+    height: 60vh;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer .footer-info {
+    background-color: #384762;
+    height: 80px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    width: 100%;
+}

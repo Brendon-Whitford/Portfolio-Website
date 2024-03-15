@@ -1,0 +1,76 @@
+.Account {
+    text-align: left;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.Account h1 {
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    font-size: 64px;
+    margin-bottom: 60px;
+}
+.Account h3 {
+    color: #000;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Bungee, sans-serif;
+    font-size: 32px;
+    text-align: left;
+}
+.Account .bio h3 {
+    margin-bottom: 40px;
+}
+
+.Account p {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Account .image {
+    text-align: center;
+}
+.Account .bio {
+    margin-bottom: 60px;
+}
+
+.Account li {
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    text-align: left;
+}
+
+.Account .skills h3 {
+    margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .Account .skills h3 {
+        margin-top: 20px;
+
+    }
+}
+.Account .kudos {
+    margin-top: 30px;
+    
+}
+.Account .kudos p {
+    font-family: "Josefin Sans";
+    font-size: 20px; 
+}
+
+.Account .kudos .kudos-people {
+    text-align: left;
+}
+
+.Account .kudos .kudos-people .name {
+    font-family: "Josefin Sans";
+    font-size: 20px; 
+    text-decoration-line: underline; 
+}
+.Account .kudos .kudos-people .role {
+    text-align: left;
+    font-family: "Josefin Sans";
+    font-size: 14px; 
+}

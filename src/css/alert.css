@@ -1,0 +1,25 @@
+/*--------------------------------------------------
+CSS for alert buttons
+--------------------------------------------------*/
+
+.fadeAlert {
+	position: fixed !important;
+	margin-top: 15px;
+	opacity: 97%;
+	width: 80%;
+	z-index: 100000;
+  left: 50%;
+  text-align: center;
+	transform: translate(-50%, -200%);
+	animation-name: AlertFade;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes AlertFade {
+	0% {transform: translate(-50%, -120%)}
+	15% {transform: translate(-50%, 0%)}
+	75% {transform: translate(-50%, 0%)}
+	100% {transform: translate(-50%, -300%)}
+}

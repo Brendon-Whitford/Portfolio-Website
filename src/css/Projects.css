@@ -1,0 +1,165 @@
+.navigation {
+    position: fixed;
+    top: 10px; 
+    left: 0;
+    height: calc(100% - 50px); 
+    width: 230px;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+.navigation-content {
+    background-color: #4A4A4A;
+    padding: 18px;
+    border-radius: 0 4px 4px 0;
+    line-height: 25px;
+}
+.navigation-content span{
+    display: block;
+}
+.navigation-content a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Bungee, sans-serif;
+    font-size: 16px;
+    font-style: normal; 
+}
+.navigation-content h5 {
+    color: #67CD7D;
+    font-family: Bungee;
+    font-size: 20px; 
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.sticky {
+    top: 130px; 
+}
+.nav-title {
+    text-decoration: none;
+    font-family: Bungee, sans-serif;
+    font-size: 20px; 
+    color: #000;
+    margin-left: 18px;
+}
+
+@media (max-width: 1250px) { 
+    .navigation {
+        display: none;
+    }
+    .Projects .container {
+        width: 100%;
+        max-width: none;
+    }
+    #Top {
+        width: 100% !important;
+    }
+}
+
+
+.Projects .project {
+    margin-bottom: 60px;
+}
+.Projects {
+    text-align: left;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.Projects .container {
+    width: 85%;
+    max-width: 1200px;
+}
+.Projects .project-image {
+    width: auto;
+    height: 300px; 
+    object-fit: cover;
+    background-color: #000;
+}
+
+
+.Projects h1 {
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    font-size: 64px;
+}
+
+.Projects .title {
+    text-align: left;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Bungee, sans-serif;
+    font-size: 32px; 
+}
+
+.Projects .tags {
+    list-style: none; 
+    font-family: Bungee, sans-serif;
+    font-size: 16px; 
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Projects .tags li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.Projects .tags li::before {
+    content: "\25A0";
+    display: inline-block;
+    margin-right: .2em;
+}
+
+.Projects .desc {
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 16px; 
+
+}
+
+.Projects .underline {
+    border-bottom: 1px solid  rgb(87, 87, 87);
+    margin: 36px auto;
+}
+
+.graphic-design img{ 
+    padding: 0;
+    margin: 10px;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px; 
+    object-fit: cover;
+    box-shadow: #d1d1d1 3px 3px 5px;
+}
+
+.row.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.nextTitle {
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    font-size: 42px;
+}
+.first-title {
+    margin: 50px 0 40px 0;
+}
+
+.hyperlink{
+    text-decoration: underline;
+}
+
+.hyperlink:hover {
+    cursor: pointer;
+    color: #384762;
+}
+
+.example-modal-css {
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    font-size: 42px;
+}

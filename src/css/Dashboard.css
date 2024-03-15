@@ -1,0 +1,87 @@
+.Dashboard .profile-picture {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: auto;
+    object-fit: cover;
+    object-position: 50% 60%;
+    margin-bottom: 1em;
+}
+
+
+.Dashboard .introduction {
+    text-align: left;
+    margin: 0;
+    font-family: Josefin Sans;
+    color: #000;
+    max-width: 500px;
+    margin-bottom: 1em;
+}
+
+.Dashboard .introduction h1 {
+    color: #000;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Bungee", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 .5em 0;
+    line-height: 1em;
+}
+
+.Dashboard .introduction h3 {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.Dashboard .description h3 {
+    display: inline;    
+}
+.Dashboard .description p {
+    margin: 0;   
+}
+.Dashboard .description button {
+    margin-left: auto;   
+}
+
+.Dashboard .projects {
+    display: flex;
+    justify-content: center;
+}
+
+.Dashboard .projects .col-md-6 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.Dashboard .projects h1 {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Bungee, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 1em;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .Dashboard .projects h1 {
+        font-size: 24px; 
+    }
+}
+
+.Dashboard .projects img {
+    margin-bottom: 1em;
+}
+
+.Dashboard .more-projects {
+    float: right;
+    margin-bottom: 72px;
+}
