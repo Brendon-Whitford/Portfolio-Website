@@ -12,7 +12,7 @@ import { Alert } from 'react-bootstrap';
 import {Projects, Dashboard, Account} from '../Components/UserPages';
 import {NavigationBar, PageNotFound, Footer} from '../Components/GeneralComponents';
 
-const App = ({ alert }) => {  
+const App = ({ alert }) => {   
   return (
     <BrowserRouter>
       <NavigationBar />
