@@ -24,7 +24,7 @@ const Dashboard = ({ }) => {
                                 <p>Minor in Japanese Studies</p>
                                 <p>Certificate in UX Design </p>
                                 
-                                <button className='more-projects' onClick={() => {window.location.assign(`${window.location.origin}/Account`);}}>
+                                <button className='more-projects' onClick={() => {window.location.assign(`${window.location.origin}/#/Account`);}}>
                                     More About Me {"->"}
                                 </button>
                             </div>
@@ -41,7 +41,7 @@ const Dashboard = ({ }) => {
                             <img src={Blank} alt="Placeholder Image" />
                         </div>
                     </div>
-                    <button className='more-projects' onClick={() => {window.location.assign(`${window.location.origin}/Projects`);}}>
+                    <button className='more-projects' onClick={() => {window.location.assign(`${window.location.origin}/#/Projects`);}}>
                             More Projects {"->"}
                     </button>
                 </div>

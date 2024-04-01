@@ -29,8 +29,8 @@ const NavigationBar = ({}) => {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="/Projects" className='nav-text'>Projects</Nav.Link>
-                            <Nav.Link href="/Account" className='nav-text'>About</Nav.Link>
+                            <Nav.Link href="/#/Projects" className='nav-text'>Projects</Nav.Link>
+                            <Nav.Link href="/#/Account" className='nav-text'>About</Nav.Link>
                             <Nav.Link href="https://www.linkedin.com/in/brendon-whitford"><img className="nav-linkedin" src={Linkedin} alt="Linkedin Icon"/></Nav.Link>
                             <Nav.Link href="mailto:brendonwhitford@u.boisestate.edu"><img className="nav-gmail" src={Gmail} alt="Gmail Icon" /></Nav.Link>
                         </Nav>

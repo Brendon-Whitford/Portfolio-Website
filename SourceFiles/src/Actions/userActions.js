@@ -65,7 +65,7 @@ function EditAccount(token, name, email, password) {
         if(changedEmail) {
             Logout()
         } else {
-            setTimeout(() => reroute("Account"), 750);
+            setTimeout(() => reroute("#/Account"), 750);
         }
 })}
 
