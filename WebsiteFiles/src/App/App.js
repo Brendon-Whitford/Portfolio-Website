@@ -5,7 +5,7 @@
 import React, {Fragment} from 'react';
 import { alertActions } from "../Actions";
 import { connect } from 'react-redux';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Alert } from 'react-bootstrap';
 
@@ -14,7 +14,7 @@ import {NavigationBar, PageNotFound, Footer} from '../Components/GeneralComponen
 
 const App = ({ alert }) => {   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavigationBar />
       
       {/*Displays alert at the top of the screen*/}
@@ -33,7 +33,7 @@ const App = ({ alert }) => {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
