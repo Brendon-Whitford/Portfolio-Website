@@ -1,6 +1,6 @@
 .Dashboard .profile-picture {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 4px;
     margin: auto;
@@ -81,7 +81,7 @@
     margin: 10px;
     margin-bottom: 2em;
     border-radius: 4px;
-    width: 350px;
+    width: 300px;
     height: 300px; 
     object-fit: cover;
 }
