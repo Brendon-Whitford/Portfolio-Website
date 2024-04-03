@@ -70,11 +70,14 @@
     max-width: 1200px;
 }
 .Projects .project-image {
-    width: auto;
+    padding: 0;
+    margin: 10px;
+    border-radius: 4px;
+    width: 300px;
     height: 300px; 
     object-fit: cover;
-    background-color: #000;
 }
+
 
 
 .Projects h1 {

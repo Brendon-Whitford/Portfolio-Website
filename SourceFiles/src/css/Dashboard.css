@@ -9,7 +9,6 @@
     margin-bottom: 1em;
 }
 
-
 .Dashboard .introduction {
     text-align: left;
     margin: 0;
@@ -78,7 +77,13 @@
 }
 
 .Dashboard .projects img {
-    margin-bottom: 1em;
+    padding: 0;
+    margin: 10px;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    width: 350px;
+    height: 300px; 
+    object-fit: cover;
 }
 
 .Dashboard .more-projects {

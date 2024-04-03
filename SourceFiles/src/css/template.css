@@ -22,7 +22,6 @@
     font-family: Bungee, sans-serif;
     color: #FFF !important;
     text-align: center;
-    font-family: Bungee, sans-serif;
     font-size: 32px !important;
     margin-left: 60px;
 }
@@ -31,11 +30,20 @@
 }
 .offcanvas-body {
     background-color: #384762 !important;
+    font-family: Bungee, sans-serif;
+    color: #FFF !important;
+    font-size: 32px !important;
 }
+.offcanvas-body img {
+    margin-left: 1em;
+}
+
 .offcanvas-header {
     background-color: #384762 !important;
     color: #eeeeee
 }
+
+
 .btn-close {
     background-color: white !important;
 }

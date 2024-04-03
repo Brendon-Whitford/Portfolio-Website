@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import Blank from '../../Images/blank_image.PNG'; 
 import StickyBox from "react-sticky-box";
 import Modal from 'react-bootstrap/Modal';
+import { HashLink } from 'react-router-hash-link';
 
 const Projects = ({}) => {
     const displayInfo = [
@@ -281,23 +282,23 @@ const Projects = ({}) => {
 const LeftNav = ({ isSticky }) => {
     return (
         <div className={`navigation ${isSticky ? 'sticky' : ''}`}>
-                <h5><a href="#Top" className='nav-title'>Go To Top</a></h5>
+                <h5><HashLink to="#Top" className='nav-title'>Go To Top</HashLink></h5>
                 <div className='navigation-content'>
-                    <a href="#UX/UI Design"><h5>UX/UI Design</h5></a>
-                        <span><a href="#FATE">Fate</a></span>
-                        <span><a href="#Beam Tours">Beam Tours</a></span>
-                        <span><a href="#Freeman Tour">Freeman Tour</a></span>
-                        <span><a href="#A Mind For All Seasons">A.M.A.S.</a></span>
-                    <a href="#XR Development"><h5>XR Development</h5></a>
-                        <span><a href="#MNDR Virtual Album">MNDR</a></span>
-                        <span><a href="#Double Vision Research Project">Double Vision</a></span>
-                        <span><a href="#Quickshot VR">Quickshot</a></span>
-                        <span><a href="#Bronco Plus Action Board">Bronco Plus Action</a></span>
-                    <a href="#Game Development"><h5>Game Development</h5></a>
-                        <span><a href="#Balln’t">Balln’t</a></span>
-                        <span><a href="#Force Arena">Force Arena</a></span>
-                        <span><a href="#Project Sakura">Project Sakura</a></span>
-                    <a href="#Graphic Design"><h5>Graphic Design</h5></a>
+                    <HashLink to="#UX/UI Design"><h5>UX/UI Design</h5></HashLink>
+                        <span><HashLink to="#FATE">Fate</HashLink></span>
+                        <span><HashLink to="#Beam Tours">Beam Tours</HashLink></span>
+                        <span><HashLink to="#Freeman Tour">Freeman Tour</HashLink></span>
+                        <span><HashLink to="#A Mind For All Seasons">A.M.A.S.</HashLink></span>
+                    <HashLink to="#XR Development"><h5>XR Development</h5></HashLink>
+                        <span><HashLink to="#MNDR Virtual Album">MNDR</HashLink></span>
+                        <span><HashLink to="#Double Vision Research Project">Double Vision</HashLink></span>
+                        <span><HashLink to="#Quickshot VR">Quickshot</HashLink></span>
+                        <span><HashLink to="#Bronco Plus Action Board">Bronco Plus Action</HashLink></span>
+                    <HashLink to="#Game Development"><h5>Game Development</h5></HashLink>
+                        <span><HashLink to="#Balln’t">Balln’t</HashLink></span>
+                        <span><HashLink to="#Force Arena">Force Arena</HashLink></span>
+                        <span><HashLink to="#Project Sakura">Project Sakura</HashLink></span>
+                    <HashLink to="#Graphic Design"><h5>Graphic Design</h5></HashLink>
                 </div>
         </div>
     );

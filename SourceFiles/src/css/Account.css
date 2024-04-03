@@ -32,6 +32,15 @@
 .Account .image {
     text-align: center;
 }
+
+.Account img {
+    padding: 0;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px; 
+    object-fit: cover;
+}
+
 .Account .bio {
     margin-bottom: 60px;
 }

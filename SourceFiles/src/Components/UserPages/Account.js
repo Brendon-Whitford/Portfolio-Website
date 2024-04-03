@@ -76,21 +76,21 @@ const Account = ({ }) => {
                             Most projects are highly collaborative endeavors and there are almost no projects that I have worked on alone. In no particular order, these are some of the people that I have been lucky enough to work alongside that have contributed to designs, development, art assets, or feedback. 
                         </p>
                         <div className='kudos-people'>
-                            <span className='name'>Alexander Spoon</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/alexanderspoon/">Alexander Spoon</a></span>
                             <span className='role'> (Full Stack Web Developer). </span>
-                            <span className='name'>Brandon Benoit</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/brandonbenoit/">Brandon Benoit</a></span>
                             <span className='role'> (Project Manager). </span>
-                            <span className='name'>Sydney Reinert</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/sydneyareinert/">Sydney Reinert</a></span>
                             <span className='role'> (3D Artist). </span>
-                            <span className='name'>Brady Williamson</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/brady-l-williamson/">Brady Williamson</a></span>
                             <span className='role'> (VFX Artist). </span>
-                            <span className='name'>Sarina Lloyd</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/sarina-lloyd-3a8a68198/">Sarina Lloyd</a></span>
                             <span className='role'> (3D Artist). </span>
-                            <span className='name'>Zeke Wandeler</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/zekewandeler/">Zeke Wandeler</a></span>
                             <span className='role'> (UX/UI Designer). </span>
-                            <span className='name'>Heaven Rust</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/heavenleerust/">Heaven Rust</a></span>
                             <span className='role'> (Narrative Designer). </span>
-                            <span className='name'>Ryna Hall</span>
+                            <span className='name'><a target="_blank" href="https://www.linkedin.com/in/ryna-hall-96312720b/">Ryna Hall</a></span>
                             <span className='role'> (Software Developer). </span>
                         </div>
                     </div>
