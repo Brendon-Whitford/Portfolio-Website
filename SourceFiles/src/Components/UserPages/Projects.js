@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState, useRef } from 'react';
 import { userActions } from "../../Actions";
 import { connect } from 'react-redux';
 import Blank from '../../Images/blank_image.PNG'; 
+import HandidAd from '../../Images/BeCurious250x250.png';
 import StickyBox from "react-sticky-box";
 import Modal from 'react-bootstrap/Modal';
 import { HashLink } from 'react-router-hash-link';
@@ -165,15 +166,25 @@ const Projects = ({}) => {
             tags: ["UX/UI Design", "Augmented Reality", "Figma", "Product Design", "SwiftUI"],
             description: `
             <p>
-            Quickshot is a VR wave defense game built in Unity and targeted for PC VR platforms. Equipped with a crossbow, players must defend their castle against an endless onslaught of enemies for as long as possible.
+            Bronco Plus Action Board is an Augmented Reality iPad app aimed to assist non-verbal individuals in efficient real-time and real-space communication by displaying visual iconography and text that can be viewed by two users on separate iPads in AR. In my Swift mobile app development course during the third year of my undergraduate program, I created an Augmented Reality app for the iPad with a team of three to address a cognitive accessibility issue on a campus or in an educational setting.
+
             <div>
-            Developed as one of my bachelor's degree capstone projects, I have worked on Quickshot on and off for three years across multiple classes. In GIMM 290, based on the requirement that I developed for VR, I began by ideating on ideas and prototyping game loops before deciding on a wave defense style game. I did the bulk of the programming in GIMM 350. During GIMM 330 and 370 I modeled, textured, rigged, and animated everything in the game. I did all 3D art and created procedural textures for my models in Blender. Throughout GIMM 360, I made all of the sound effects in the game. 
+            Our team researched some issues that people with autism might struggle with. Individuals with non-verbal autism and their struggle to communicate in real-time with people was a problem that stood out to us in our research. With current technologies, they can communicate through text using keyboards, but it remains to be a challenging and lengthy process of typing out sentences due to cognitive and physical issues.
+
             </div>
             <div>
-            I originally designed for the player to defend a single tower, and enemies would charge from all sides. On each side was a mounted ballista that players could grab and aim at enemies to shoot. This design ended up being too cumbersome and limiting, so I changed the design to give players a crossbow to wield and modified enemies spawning so that enemies would only come from a single direction.
+            Recognizing the challenges faced by individuals with non-verbal autism in real-time communication, our team aimed to develop an AR application that would connect two iPads using Apple’s Multipeer Connection. The two users scan their environment using the iPads' Lidar scanner and can then select prompts on the iPad to display a thought or emotion in real-space using AR. This would allow non-verbal users to communicate easier and faster than typing sentences out.
+
             </div>
             <div>
-            Once I had a working game loop, I did waves of playtesting as I continued to develop and improve the game. Most recently, I completed a Formative Qualitative Research Study. I have since made changes based on the feedback.
+            The situation we designed for was a professor at the front of a classroom and a student sitting at their desk at the other end of the classroom. The student could select a prompt using our application, such as “I have a question.” The student's device would then display text and an icon above the student, which in this case was a question mark and the appropriate text. The professor would then be able to see this prompt on their device aimed towards the class and would be able to respond in kind on their device, allowing for two-way non-verbal communication in real-space using AR.
+
+            </div>
+            <div>
+            During the development phase, I did product design with the team and created a low-fidelity user flow in Figma that we used as the foundation for our product design and user flow. After the design's creation, I set up the Multipeer environment and scanning, which would determine where objects would be placed in AR space. Two team members created the UI and 3D assets and implemented them into the app. The final team member assisted other team members with programming and did bug fixes.
+            </div>
+            <div>
+            Once we finished developing all these features and confirmed that objects were displayed on both devices when a prompt was selected, we presented to our class and the director of Boise State’s Access Center, responsible for creating and providing accommodations to students with special needs. We received positive feedback that our application had the potential to be helpful for students in the classroom.
             </div>
             </p>
             `,
@@ -345,7 +356,7 @@ const Projects = ({}) => {
                         <div className='graphic-design'>
                             <div className='row flex-container'>
                                 <img src={Blank} alt="Placeholder Image" />
-                                <img src={Blank} alt="Placeholder Image" />
+                                <img src={HandidAd} alt="Placeholder Image" />
                                 <img src={Blank} alt="Placeholder Image" />
                                 <img src={Blank} alt="Placeholder Image" />
                                 <img src={Blank} alt="Placeholder Image" />
