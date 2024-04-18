@@ -1,18 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.8028dd8a.css",
-    "main.js": "/static/js/main.f2975ab8.js",
+    "main.js": "/static/js/main.83c07af4.js",
+    "static/media/quickshot.PNG": "/static/media/quickshot.f60b0bc31216e37cce7d.PNG",
+    "static/media/MNDRportfolio.PNG": "/static/media/MNDRportfolio.2ef48f2ef96076fbecd6.PNG",
+    "static/media/HandidCustomCoverFINAL.png": "/static/media/HandidCustomCoverFINAL.3f46ff632963dfd569e5.png",
+    "static/media/broncoplusactionboard.PNG": "/static/media/broncoplusactionboard.3706c331de0922d7666b.PNG",
+    "static/media/RaveGaurdianFlyer1.png": "/static/media/RaveGaurdianFlyer1.9fa0f4c75fb762740c60.png",
+    "static/media/HDG-Logo-V2.png": "/static/media/HDG-Logo-V2.a0c915683a7ea590e5c6.png",
     "static/media/ProfilePicture.PNG": "/static/media/ProfilePicture.63e20831c95f18ae768c.PNG",
+    "static/media/forcearenaportfolio.PNG": "/static/media/forcearenaportfolio.105cb4c96dddb4e730f1.PNG",
+    "static/media/DVresearchscreenshot.PNG": "/static/media/DVresearchscreenshot.30699d65dbf9b46a853b.PNG",
+    "static/media/broncobeamportfolio.PNG": "/static/media/broncobeamportfolio.5a3619b72c8791ab53db.PNG",
+    "static/media/ballint.png": "/static/media/ballint.0aa0de39f3b1c6ea94a7.png",
+    "static/media/Whitford_Logo.png": "/static/media/Whitford_Logo.64cbad77fd048c572d4f.png",
+    "static/media/FreemanTour.jpg": "/static/media/FreemanTour.251ed77a7fac74fe76d3.jpg",
+    "static/media/SafetySaturdayTemplate1.png": "/static/media/SafetySaturdayTemplate1.3fdf22f6c1c9c2616a65.png",
+    "static/media/FatePortfolioImage.PNG": "/static/media/FatePortfolioImage.fd9a3f356bea25449b11.PNG",
+    "static/media/Amindforallseasons.PNG": "/static/media/Amindforallseasons.cbf0fb028805596d7bff.PNG",
     "static/media/BeCurious250x250.png": "/static/media/BeCurious250x250.900cf3791101fe2eaf45.png",
     "static/media/blank_image.PNG": "/static/media/blank_image.739dd731bc7d81e58041.PNG",
     "static/media/gmail.svg": "/static/media/gmail.ef7bc176ce7f3ccadb2f3f93508b8d37.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.97b08970bd300eb6b9a33a7d7beea1d9.svg",
     "main.8028dd8a.css.map": "/static/css/main.8028dd8a.css.map",
-    "main.f2975ab8.js.map": "/static/js/main.f2975ab8.js.map"
+    "main.83c07af4.js.map": "/static/js/main.83c07af4.js.map"
   },
   "entrypoints": [
     "static/css/main.8028dd8a.css",
-    "static/js/main.f2975ab8.js"
+    "static/js/main.83c07af4.js"
   ]
 }

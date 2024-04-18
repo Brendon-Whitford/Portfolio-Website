@@ -2,6 +2,8 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { userActions } from "../../Actions";
 import { connect } from 'react-redux';
 import ProfilePicture from '../../Images/ProfilePicture.PNG'; 
+import MNDR from '../../Images/MNDRportfolio.PNG';
+import DVRP from '../../Images/DVresearchscreenshot.PNG';
 import Blank from '../../Images/blank_image.PNG'; 
 
 const Dashboard = ({ }) => {
@@ -34,11 +36,11 @@ const Dashboard = ({ }) => {
                     <div className='row projects'>
                         <div className='col-lg-6'>
                             <h1>MNDR Virtual Album</h1>
-                            <img src={Blank} alt="Placeholder Image" />
+                            <img src={MNDR} alt="Placeholder Image" />
                         </div>
                         <div className='col-lg-6'>
                             <h1>Double Vision Research Project</h1>
-                            <img src={Blank} alt="Placeholder Image" />
+                            <img src={DVRP} alt="Placeholder Image" />
                         </div>
                     </div>
                     <button className='more-projects' onClick={() => {window.location.assign(`${window.location.origin}/#/Projects`);}}>

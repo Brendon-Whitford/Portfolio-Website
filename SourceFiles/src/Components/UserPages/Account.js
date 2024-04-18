@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { userActions } from "../../Actions";
 import { connect } from 'react-redux';
 import Blank from '../../Images/blank_image.PNG'; 
+import ProfilePicture from '../../Images/ProfilePicture.PNG'; 
 
 const Account = ({ }) => {
     return (
@@ -34,7 +35,7 @@ const Account = ({ }) => {
                                 </p>
                             </div>
                             <div className='col-lg-6 image'>
-                                <img src={Blank} alt="Placeholder Image" />
+                                <img src={ProfilePicture} alt="Placeholder Image" />
                             </div>
                         </div>
                     </div>
@@ -48,8 +49,8 @@ const Account = ({ }) => {
                                     <li>Figma</li>
                                     <li>Product Design</li>
                                     <li>Team Management</li>
-                                    <li>Unity 3D Development</li>
                                     <li>Unity VR Development</li>
+                                    <li>Unity 3D Development</li>
                                     <li>Web Development</li>
                                 </ul>
                             </div>

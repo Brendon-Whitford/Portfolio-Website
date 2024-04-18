@@ -3,6 +3,21 @@ import { userActions } from "../../Actions";
 import { connect } from 'react-redux';
 import Blank from '../../Images/blank_image.PNG'; 
 import HandidAd from '../../Images/BeCurious250x250.png';
+import HandidCover from '../../Images/HandidCustomCoverFINAL.png';
+import RaveGuardianFlyer from '../../Images/RaveGaurdianFlyer1.png';
+import HighDesertGroovesLogo from '../../Images/HDG-Logo-V2.png';
+import WinterFrostLogo from '../../Images/Whitford_Logo.png';
+import SafetySaturdayGraphic from '../../Images/SafetySaturdayTemplate1.png';
+import FATE from '../../Images/FatePortfolioImage.PNG';
+import Beam from '../../Images/broncobeamportfolio.PNG';
+import Freeman from '../../Images/FreemanTour.jpg';
+import AMAS from '../../Images/Amindforallseasons.PNG';
+import MNDR from '../../Images/MNDRportfolio.PNG';
+import DVRP from '../../Images/DVresearchscreenshot.PNG';
+import Quickshot from '../../Images/quickshot.PNG';
+import BPAB from '../../Images/broncoplusactionboard.PNG';
+import ballint from '../../Images/ballint.png';
+import ForceArena from '../../Images/forcearenaportfolio.PNG';
 import StickyBox from "react-sticky-box";
 import Modal from 'react-bootstrap/Modal';
 import { HashLink } from 'react-router-hash-link';
@@ -27,7 +42,7 @@ const Projects = ({}) => {
                 </div>
             </p>
             `,
-            image: Blank,
+            image: FATE,
             underline: false,
             nextTitle: "",
         },
@@ -54,7 +69,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: Beam,
             underline: false,
             nextTitle: "",
         },
@@ -75,7 +90,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: Freeman,
             underline: false,
             nextTitle: "",
         },
@@ -93,7 +108,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: AMAS,
             underline: true,
             nextTitle: "XR Development",
         },
@@ -121,7 +136,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: MNDR,
             underline: false,
             nextTitle: "",
         },
@@ -136,7 +151,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: DVRP,
             underline: false,
             nextTitle: "",
         },
@@ -157,7 +172,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: Quickshot,
             underline: false,
             nextTitle: "",
         },
@@ -188,7 +203,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: BPAB,
             underline: true,
             nextTitle: "Game Development",
         },
@@ -209,7 +224,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: ballint,
             underline: false,
             nextTitle: "",
         },
@@ -227,7 +242,7 @@ const Projects = ({}) => {
             </div>
             </p>
             `,
-            image: Blank,
+            image: ForceArena,
             underline: false,
             nextTitle: "Graphic Design",
         },
@@ -355,12 +370,12 @@ const Projects = ({}) => {
 
                         <div className='graphic-design'>
                             <div className='row flex-container'>
-                                <img src={Blank} alt="Placeholder Image" />
+                                <img src={HighDesertGroovesLogo} alt="Placeholder Image" />
                                 <img src={HandidAd} alt="Placeholder Image" />
-                                <img src={Blank} alt="Placeholder Image" />
-                                <img src={Blank} alt="Placeholder Image" />
-                                <img src={Blank} alt="Placeholder Image" />
-                                <img src={Blank} alt="Placeholder Image" />
+                                <img src={HandidCover} alt="Placeholder Image" />
+                                <img src={RaveGuardianFlyer} alt="Placeholder Image" />
+                                <img src={SafetySaturdayGraphic} alt="Placeholder Image" />
+                                <img src={WinterFrostLogo} alt="Placeholder Image" />
                             </div>
                         </div>
 
